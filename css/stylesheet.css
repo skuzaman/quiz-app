@@ -4,9 +4,7 @@ h1{
 h1{
   font-family: fantasy;
 }
-.jumbotron {
-  background-color: #;
-}
+
 .container{
   background-color: #8ECCAE;
   opacity: 0.85;
@@ -17,3 +15,46 @@ body{
   background-size: cover;
   margin: 1px
   background-size: 1300px;
+  .secondscreen, .thirdscreen{
+    display: none;
+  }
+
+
+  .jumbotron{
+    display: flex;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .jumbotron img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-top: -5px;
+  }
+
+  .card{
+    display: none;
+    color: black;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 3px 3px 3px grey;
+    font-family: "cursive";
+    text-align: center;
+  }
+
+  #click{
+    font-style: italic;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px white;
+  }
+
+  strong{
+    color: darkgrey;
+  }
