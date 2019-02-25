@@ -11,8 +11,8 @@ $(document).ready(function() {
     var val3 = parseInt(question3);
     var val4 = parseInt(question4);
     var add = (val1 + val2 + val3 + val4);
+    $(".dip").text(add);
 
-    window.open("index2.html", "_self");
   });
 });
 
@@ -25,6 +25,6 @@ var retake = function(){
   window.open("index.html", "_self");
 };
 
-var submit = function(){
-    alert()
+var proceed = function(){
+    window.open("index3.html", "_self");
 };

@@ -5,8 +5,6 @@
   <link rel="stylesheet" href="css/stylesheet.css">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.google.com/specimen/Coiny" rel="stylesheet" type="text/css">
-  <script src="js/3.3.1.js"></script>
-  <script src="js/scripts.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>quiz board</title>
 </head>
@@ -17,7 +15,7 @@
       </div>
 
       <ol>
-        <form>
+        <form class="test">
           <li class = "question1">what is javascript?</li>
           <div class="radio">
               <input type="radio" name = "answer1" value = "0">
@@ -66,12 +64,20 @@
             'This' keyword refers to the object from where it was not called.<br>
           </div>
 
-          <br><button class="btn" type="submit">submit</button>
+          <br><button class="btn btn-info" type="submit">submit</button>
+
         </form>
+
         </ol>
-        <script src="js/scripts.js"></script>
+        <div class="display">
+          <h1 class="dip"></h1>
         </div>
-
-
+        <button type="button" class="btn btn-primary btn-block" onclick="proceed()">proceed</button>
+        </div>
+        <script
+          src="https://code.jquery.com/jquery-3.3.1.js"
+          integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+          crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
   </body>
 </html>

@@ -58,3 +58,14 @@ body{
   strong{
     color: darkgrey;
   }
+  .display{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: #9876;
+  }
+  .btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #8ECCAE; 
+  }
