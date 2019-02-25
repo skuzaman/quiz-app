@@ -1,8 +1,8 @@
 # quiz-app
-##this is a programme that gathers data and gives required feedback on a test that is attempted
+this is a programme that gathers data and gives required feedback on a test that is attempted
 
 ## Description
-{through the use of javascript formulas the application is able to alert you of what type of triangle you have just imputted according to data pre-fed into the system concerning the applications responses according to various situations}
+through the use of javascript formulas the application is able to alert you of what type of triangle you have just imputted according to data pre-fed into the system concerning the applications responses according to various situations
 ##BDD
 the application runs the following processes
 
